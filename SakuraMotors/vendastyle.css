@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ff6ec7;
+    color: #ff6ec7;
+    margin: 0;
+    padding: 0;
+    background-image: url(pink-neon-background_53876-91656.jpg);
+}
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    
+}
+
+.search :hover{
+    color: #8f8f8f;
+
+}
+
+section.search li{
+    display: inline-block;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 18px 20px;
+    
+}
+
+section.search li a {
+    display: block   ;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+      
+}
+
+section.search {
+
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.search h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+
+
+section.carros-venda {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.carros-venda :hover{
+    background-color: #882762;
+}
+
+.car-card {
+    background-color: #6c49b8;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    
+    
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.car-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.car-card p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+.car-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff6ec7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.filtros{
+    text-align: center;
+    color: white;
+    font-size: large;
+    background-color: #333;
+   margin-right: 300px;
+   margin-left: 300px;
+   border-radius: 10px;
+
+}
+
+.filtros h3{
+    
+    font-size: large;
+    margin-top: 6px;
+
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b659ff;
+    color: #fff;
+    font-size: small;
+    
+}
